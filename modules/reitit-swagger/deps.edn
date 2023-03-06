@@ -1,0 +1,1 @@
+{:deps {metosin/reitit-core {:mvn/version "0.6.0"}}}
