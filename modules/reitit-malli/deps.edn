@@ -1,0 +1,3 @@
+{:deps {metosin/reitit-core {:mvn/version "0.6.0"}
+        metosin/malli       {:git/url "https://github.com/fluree/malli.git"
+                             :git/sha "23488b20ebe189b9eae43369b4799a8940978a05"}}}
