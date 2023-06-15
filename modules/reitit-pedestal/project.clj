@@ -1,4 +1,4 @@
-(defproject metosin/reitit-pedestal "0.6.0"
+(defproject metosin/reitit-pedestal "0.6.0-hti-malli-swagger-defs"
   :description "Reitit + Pedestal Integration"
   :url "https://github.com/metosin/reitit"
   :license {:name "Eclipse Public License"

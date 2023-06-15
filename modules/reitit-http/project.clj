@@ -1,4 +1,4 @@
-(defproject metosin/reitit-http "0.6.0"
+(defproject metosin/reitit-http "0.6.0-hti-malli-swagger-defs"
   :description "Reitit: HTTP routing with interceptors"
   :url "https://github.com/metosin/reitit"
   :license {:name "Eclipse Public License"

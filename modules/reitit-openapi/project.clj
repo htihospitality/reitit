@@ -1,4 +1,4 @@
-(defproject metosin/reitit-openapi "0.6.0"
+(defproject metosin/reitit-openapi "0.6.0-hti-malli-swagger-defs"
   :description "Reitit: OpenAPI-support"
   :url "https://github.com/metosin/reitit"
   :license {:name "Eclipse Public License"
