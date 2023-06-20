@@ -1,4 +1,4 @@
-(defproject metosin/reitit-parent "0.6.0-hti-malli-swagger-defs"
+(defproject metosin/reitit-parent "0.6.0a-hti-malli-swagger-defs"
   :description "Snappy data-driven router for Clojure(Script)"
   :url "https://github.com/metosin/reitit"
   :license {:name "Eclipse Public License"
@@ -15,22 +15,22 @@
         :url "https://github.com/metosin/reitit"}
   ;; TODO: need to verify that the code actually worked with Java1.8, see #242
   :javac-options ["-Xlint:unchecked" "-target" "1.8" "-source" "1.8"]
-  :managed-dependencies [[metosin/reitit "0.6.0-hti-malli-swagger-defs"]
-                         [metosin/reitit-core "0.6.0-hti-malli-swagger-defs"]
-                         [metosin/reitit-dev "0.6.0-hti-malli-swagger-defs"]
-                         [metosin/reitit-spec "0.6.0-hti-malli-swagger-defs"]
-                         [metosin/reitit-malli "0.6.0-hti-malli-swagger-defs"]
-                         [metosin/reitit-schema "0.6.0-hti-malli-swagger-defs"]
-                         [metosin/reitit-ring "0.6.0-hti-malli-swagger-defs"]
-                         [metosin/reitit-middleware "0.6.0-hti-malli-swagger-defs"]
-                         [metosin/reitit-http "0.6.0-hti-malli-swagger-defs"]
-                         [metosin/reitit-interceptors "0.6.0-hti-malli-swagger-defs"]
-                         [metosin/reitit-swagger "0.6.0-hti-malli-swagger-defs"]
-                         [metosin/reitit-openapi "0.6.0-hti-malli-swagger-defs"]
-                         [metosin/reitit-swagger-ui "0.6.0-hti-malli-swagger-defs"]
-                         [metosin/reitit-frontend "0.6.0-hti-malli-swagger-defs"]
-                         [metosin/reitit-sieppari "0.6.0-hti-malli-swagger-defs"]
-                         [metosin/reitit-pedestal "0.6.0-hti-malli-swagger-defs"]
+  :managed-dependencies [[metosin/reitit "0.6.0a-hti-malli-swagger-defs"]
+                         [metosin/reitit-core "0.6.0a-hti-malli-swagger-defs"]
+                         [metosin/reitit-dev "0.6.0a-hti-malli-swagger-defs"]
+                         [metosin/reitit-spec "0.6.0a-hti-malli-swagger-defs"]
+                         [metosin/reitit-malli "0.6.0a-hti-malli-swagger-defs"]
+                         [metosin/reitit-schema "0.6.0a-hti-malli-swagger-defs"]
+                         [metosin/reitit-ring "0.6.0a-hti-malli-swagger-defs"]
+                         [metosin/reitit-middleware "0.6.0a-hti-malli-swagger-defs"]
+                         [metosin/reitit-http "0.6.0a-hti-malli-swagger-defs"]
+                         [metosin/reitit-interceptors "0.6.0a-hti-malli-swagger-defs"]
+                         [metosin/reitit-swagger "0.6.0a-hti-malli-swagger-defs"]
+                         [metosin/reitit-openapi "0.6.0a-hti-malli-swagger-defs"]
+                         [metosin/reitit-swagger-ui "0.6.0a-hti-malli-swagger-defs"]
+                         [metosin/reitit-frontend "0.6.0a-hti-malli-swagger-defs"]
+                         [metosin/reitit-sieppari "0.6.0a-hti-malli-swagger-defs"]
+                         [metosin/reitit-pedestal "0.6.0a-hti-malli-swagger-defs"]
                          [metosin/ring-swagger-ui "4.18.1"]
                          [metosin/spec-tools "0.10.5"]
                          [metosin/schema-tools "0.13.0"]

@@ -1,4 +1,4 @@
-(defproject metosin/reitit "0.6.0-hti-malli-swagger-defs"
+(defproject metosin/reitit "0.6.0a-hti-malli-swagger-defs"
   :description "Snappy data-driven router for Clojure(Script)"
   :url "https://github.com/metosin/reitit"
   :license {:name "Eclipse Public License"

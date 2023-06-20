@@ -1,4 +1,4 @@
-(defproject metosin/reitit-malli "0.6.0-hti-malli-swagger-defs"
+(defproject metosin/reitit-malli "0.6.0a-hti-malli-swagger-defs"
   :description "Reitit: Malli coercion"
   :url "https://github.com/metosin/reitit"
   :license {:name "Eclipse Public License"

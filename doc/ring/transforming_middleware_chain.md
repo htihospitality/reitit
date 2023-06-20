@@ -59,7 +59,7 @@ There is an extra option in the Ring router (actually, in the underlying middlew
 ### Printing Request Diffs
 
 ```clj
-[metosin/reitit-middleware "0.6.0-hti-malli-swagger-defs"]
+[metosin/reitit-middleware "0.6.0a-hti-malli-swagger-defs"]
 ```
 
 Using `reitit.ring.middleware.dev/print-request-diffs` transformation, the request diffs between each middleware are printed out to the console. To use it, add the following router option:

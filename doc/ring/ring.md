@@ -5,7 +5,7 @@
 Read more about the [Ring Concepts](https://github.com/ring-clojure/ring/wiki/Concepts).
 
 ```clj
-[metosin/reitit-ring "0.6.0-hti-malli-swagger-defs"]
+[metosin/reitit-ring "0.6.0a-hti-malli-swagger-defs"]
 ```
 
 ## `reitit.ring/router`
