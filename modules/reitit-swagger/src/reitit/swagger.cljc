@@ -69,6 +69,16 @@
 (defn- swagger-path [path opts]
   (-> path (trie/normalize opts) (str/replace #"\{\*" "{")))
 
+(defn remove-definitions-from-methods
+  [paths]
+  (->> paths
+    (map (fn [[k v]]
+           [k (->> v
+                (map (fn [[k' v']]
+                       [k' (dissoc v' :definitions)]))
+                (into {}))]))
+    (into {})))
+
 (defn create-swagger-handler
   "Create a ring handler to emit swagger spec. Collects all routes from router which have
   an intersecting `[:swagger :id]` and which are not marked with `:no-doc` route data."
@@ -110,9 +120,10 @@
                                               (for [k ks]
                                                 (when-let [method-map (get v k)]
                                                   (:definitions method-map)))))))
-                         {} paths)]
+                         {} paths)
+           paths' (remove-definitions-from-methods paths)]
        {:status 200
-        :body (meta-merge swagger {:paths paths :definitions definitions})}))
+        :body (meta-merge swagger {:paths paths' :definitions definitions})}))
     ([req res raise]
      (try
        (res (create-swagger req))
